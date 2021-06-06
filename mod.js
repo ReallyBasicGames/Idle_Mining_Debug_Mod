@@ -1,4 +1,5 @@
 let mod = {
+  modName: "Debug Mod",
   resources: {
     xp: {
       displayName: "DEBUG-XP", // how this resource is displayed on screen
