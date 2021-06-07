@@ -1,0 +1,91 @@
+{
+  "modDetails": {
+    "modName": "Debug Mod",
+    "modDiscription": "This is a debug mod!",
+    "modAuthor": "Really Basic Games",
+    "enabled": false
+  },
+  "resources": {
+    "xp": {
+      "displayName": "DEBUG-XP",
+      "amount": 0,
+      "baseResource": true,
+      "strength": 1,
+      "xp": 1000,
+      "unlock": {
+        "researchPoints": 0,
+        "researched": true,
+        "requiredLevel": 0
+      }
+    }
+  },
+  "productionBuildings": {
+    "debug_iron_smelter": {
+      "displayName": "Debug Iron Smelter",
+      "discription": "Smelts iron ore into iron ingots (extremly efficient).",
+      "unlock": {
+        "researchPoints": 0,
+        "researched": true,
+        "requiredLevel": 0
+      },
+      "cost": {
+        "wood": 0
+      },
+      "productionCost": {
+        "iron_ore": 1
+      },
+      "total": 0,
+      "production": {
+        "iron_ingots": 1000
+      }
+    }
+  },
+  "harvesters": {
+    "debug_harvester": {
+      "displayName": "Debug Harvester",
+      "discription": "Gives lots of resources.",
+      "unlock": {
+        "researchPoints": 0,
+        "researched": true,
+        "requiredLevel": 0
+      },
+      "cost": {
+        "wood": 0
+      },
+      "productionCost": {
+        "wood": 0
+      },
+      "total": 0,
+      "production": {
+        "wood": 1000,
+        "stone": 1000,
+        "coal": 1000,
+        "iron_ore": 1000,
+        "xp": 1000
+      }
+    }
+  },
+  "auto_production": {
+    "debug_auto_produce": {
+      "enabled": true,
+      "displayName": "Debug Auto-Production",
+      "discription": "Converts some resources into other resources automatically.",
+      "unlock": {
+        "researchPoints": 1,
+        "researched": false,
+        "requiredLevel": 0
+      },
+      "cost": {
+        "wood": 1
+      },
+      "productionCost": {
+        "wood": 1
+      },
+      "total": 0,
+      "production": {
+        "iron_ingots": 1000,
+        "fire": 1000
+      }
+    }
+  }
+}
