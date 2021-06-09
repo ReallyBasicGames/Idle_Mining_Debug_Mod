@@ -1,9 +1,10 @@
 {
   "modDetails": {
     "modName": "Debug Mod",
-    "modDiscription": "This is a debug mod!",
+    "modDiscription": "This is a debug mod! This mod gives various tools to get xp very quickly, as well as debugging tools for the Default Mod.",
     "modAuthor": "Really Basic Games",
-    "enabled": false
+    "enabled": false,
+    "dependencies": ["Default Mod"]
   },
   "resources": {
     "xp": {
